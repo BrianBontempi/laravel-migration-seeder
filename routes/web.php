@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',);
-Route::get('/home', HomeController::class)->name('home');
+Route::get('/', HomeController::class)->name('home');
 
 Route::get('/trains', TrainController::class)->name('train');
