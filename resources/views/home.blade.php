@@ -3,5 +3,6 @@
 @section('title', 'Home')
 
 @section('main-content')
-<h1 class="text-center">Home</h1>
+<h1 class="text-center mb-4">Treni in partenza da oggi</h1>
+@include('includes.trains.table')
 @endsection
