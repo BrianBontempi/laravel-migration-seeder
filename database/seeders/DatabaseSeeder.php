@@ -12,6 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        $this->call(TrainSeeder::class);
+
         \App\Models\Train::factory(10)->create();
     }
 }
